@@ -573,7 +573,6 @@ class GaussianDiffusion(Module):
         self.num_timesteps = int(timesteps)
 
         # sampling related parameters
-
         self.sampling_timesteps = default(sampling_timesteps, timesteps) # default num sampling timesteps to number of timesteps at training
 
         assert self.sampling_timesteps <= timesteps
@@ -1104,4 +1103,3 @@ class Trainer:
             torch.save(samples, samples_path)
 
         self.save_checkpoint(epoch)
-

@@ -9,6 +9,7 @@ from sklearn.covariance import LedoitWolf
 import sys
 import seaborn as sns
 import os
+import numba
 
 sns.set_style('white')
 
@@ -92,6 +93,7 @@ def comparision_histplot(stock_i, training_data_path, generated_data_path, bins_
 
     plt.tight_layout()
     plt.show()
+    plt.savefig('comparison_histplot.png')
     
     return bin_edges
 

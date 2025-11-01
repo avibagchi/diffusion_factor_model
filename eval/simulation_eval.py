@@ -99,6 +99,7 @@ def comparision_histplot_simulation(stock_i, training_data_path, generated_data_
 
     plt.tight_layout()
     plt.show()
+    plt.savefig('comparison_histplot_simulation.png')
     
     return bin_edges
 

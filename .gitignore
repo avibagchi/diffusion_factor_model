@@ -135,6 +135,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venv
 
 # Spyder project settings
 .spyderproject
@@ -175,3 +176,5 @@ cython_debug/
 
 
 dfactor_venv
+samples/
+model_results/
