@@ -1,0 +1,17 @@
+Metric,Training,Generated,Ratio,Description
+Basic Statistics,0.0695,0.0997,1.4337,Mean RMSE
+Covariance Error,0.0924,1.6174,17.4962,Covariance Frobenius Norm
+Factor Recovery (Frobenius),0.0948,2.4347,25.6757,Latent Subspace Frobenius Error
+Factor Recovery (Eigenvalues),0.0891,0.9965,11.1877,Eigenvalue Relative Error
+Mean (Emp),0.0695,0.0995,1.4319,Mean RMSE using Emp
+Covariance (Emp),0.0475,0.4575,9.6392,Covariance Frobenius Norm using Emp
+Mean (BS),0.0000,0.0993,N/A,Mean RMSE using BS
+Covariance (BS),0.0475,0.4575,9.6392,Covariance Frobenius Norm using BS
+Mean (OLSE),0.0695,0.0992,1.4273,Mean RMSE using OLSE
+Covariance (OLSE),0.0475,0.4575,9.6392,Covariance Frobenius Norm using OLSE
+Mean (LW),0.0695,0.0995,1.4319,Mean RMSE using LW
+Covariance (LW),0.0000,0.4586,N/A,Covariance Frobenius Norm using LW
+Mean (BS+LW),0.0000,0.0993,N/A,Mean RMSE using BS+LW
+Covariance (BS+LW),0.0000,0.4586,N/A,Covariance Frobenius Norm using BS+LW
+Mean (OLSE+LW),0.0695,0.0992,1.4273,Mean RMSE using OLSE+LW
+Covariance (OLSE+LW),0.0000,0.4586,N/A,Covariance Frobenius Norm using OLSE+LW
